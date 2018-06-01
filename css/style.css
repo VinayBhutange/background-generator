@@ -1,0 +1,73 @@
+body{
+    background-color: #EEE;
+}
+#mainpage{
+  background: url("../img/pg1.jpg")  no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+#firpage{
+    background-image: url("../img/pg2.jpg");
+    background-size: cover;
+  
+  }
+  #recordpage{
+    background-image: url("../img/pg3.jpg");
+    background-size: cover;
+  
+  }
+
+.intro{
+    text-align: center;
+    display: block;
+    margin:auto;
+    color: white;
+}
+.heading{
+    font-size: 450%;
+    font-weight: 700;
+}
+.firinfo{
+    text-align: center;
+    display: block;
+    color: white;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.cright{
+    text-align: center;
+    display: block;
+    color: white; 
+}
+.navigation{
+    height: 50px;
+    width:100%;
+    top: 0px;
+    position: absolute;
+    z-index:999;
+    background-color: #000;
+    opacity: 0.5; 
+}
+.footer{
+    height: 30px;
+    width:100%;
+    bottom: 0px;
+    position: absolute;
+    z-index:999;
+    background-color: #000;
+    opacity: 0.5; 
+    color:white;
+    text-align: right;
+}
+.di{
+    display: inline;
+}
+.calign{
+text-align: center;
+    display: block;
+    margin:auto;
+}
+body{
+    overflow-x: hidden;
+}
